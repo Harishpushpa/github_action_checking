@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - '**'
-    paths:
-      - 'package.json'
-      - 'package-lock.json'
 
 jobs:
   license-check:
